@@ -1,0 +1,259 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: rgba(102, 91, 91, 0);
+}
+
+
+.row-right {
+  border-left: 1px solid black;
+  margin-top: 15px;
+}
+.stie-title {
+  width: 100%;
+  max-width: 410px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.selest-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+.choose-select {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 15px;
+}
+.result-wrapper{
+  display: flex;
+  align-items: center;
+}
+.result__textin {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 10px;
+}
+.result__textend{
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 3px;
+}
+.title {
+  padding-bottom: 15px;
+}
+.pizza-size-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+.radio-label {
+  width: 90px;
+  height: 90px;
+  border: 3px solid rgba(209, 192, 192, 0.829);
+  border-radius: 50%;
+  padding-top: 30px;
+  padding-left: 22px;
+  margin: 10px;
+}
+.radio-label:hover {
+  transition: all 0.2s ease;
+  background-color: rgba(242, 255, 0, 0.353);
+}
+.radio-label:active {
+  box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, 0.377);
+  background-color: rgba(251, 255, 0, 0.829);          
+}
+
+.pizza-size-wrapper {
+  margin-top: 20px;
+}
+.pizza-size-result {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 10px
+}
+.addresult__texting {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+.add-vegetables-list {
+  margin: 0;
+  padding: 0;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.addbox__list {
+  margin: 0;
+  padding: 0;
+  max-width: 315px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.addVegetables-item {
+  list-style-type: none;
+  width: 190px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.addVegetables-item:hover {
+  background: rgba(0, 0, 0, 0.158);
+}
+.addVegetables-item:active {
+  background: rgba(0, 0, 0, 0.400);
+}
+.addVegetables-label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.pizzaSize-radio {
+  display: none;
+}
+.add-list__item {
+  margin: 0;
+  margin: 3px;
+  list-style-type:decimal;
+}
+.addbox__text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+.addtionals-item {
+  width: 120px;
+  padding: 5px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.addtionals-item:hover {
+  background: rgba(0, 0, 0, 0.158);
+}
+.addtionals-item:active {
+  background: rgba(0, 0, 0, 0.400);
+}
+.ustida-list {
+  height: 110px;
+}
+.addending__texting {
+  height: 50px;
+}
+.selection-section {
+  box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.377);
+}
+.order-section {
+  box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.377); 
+}
+.form__select {
+  height: 35px;
+}
+
+.slide{
+  transition: all 0.7s ease;
+  transform: translateY(-200%);
+}
+
+.modal-wrapper{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.803);
+  position: fixed;
+  z-index: 9999;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 400px;
+  
+  border-radius: 10px;
+}
+
+
+footer{
+  background-color: rgb(66, 66, 72);
+
+}
+
+.footer-bottom{
+  background-color: rgb(21, 21, 91);
+
+}
+.footer-top{
+  
+
+}
+
+.footer-title{
+  width: 150px;
+  color: #fff;
+}
+
+header{
+  /* height: 60px; */
+  padding: 10px 0;
+}
+
+.logo-img{
+  width: 40px;
+  height: 40px;
+}
+
+.nav-list{
+  list-style-type: none;
+  color: #fff;
+}
+
+.container__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+
+}
+
+@media only screen and (max-width:768px){
+
+  .btn-primary{
+    display: none;
+  }
+  
+
+  .container__wrapper{
+    display: block;
+    
+  }
+}
+
+@media only screen and (max-width:576px){
+
+  .btn-info{
+    display: none;
+  }
+}

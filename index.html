@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  
+  <div class="modal-wrapper d-none">
+    <div class="modal-box">
+       <h1 class="text-center text-succes" id="modal-text"></h1>
+    </div>
+  </div>
+
+  <header class="bg-success">
+    <div class="container">
+      <nav class="d-flex  align-items-center py-2 justify-content-between">
+<div class="nav-logo d-flex align-items-center gap-3">
+  <h4 class="text-center text-white fw-bold fs-3">Milliy.Pitsa.uz </h4>
+          <img src="./img/menu-img-1.png" alt="" class="logo-img d-flex align-items-center">
+</div>
+        <ul class="nav-list d-flex align-items-center justify-content-between gap-5">
+          <li class="nav-item">Menu</li>
+          <li class="list item">
+            <button class="btn-info btn">Kirish</button>
+            <button class="btn-primary btn">Ro'yhatdan o'tish</button>
+
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h1 class="hero-heading text-center mt-3 mb-3 text-primary fw-bold mb-5">Pitsa buyurtma qilish</h1>
+    <div class="container__wrapper js-container-wrapper row">
+      <div class="selection-section js-selection-section col--md-1 col-lg -7 border border-1 border-success py-3 rounded ps-5">
+
+        <form id="form-btn" action="https://echo.htmlacademy.ru" method="post">
+          <h5 class="form__text-non  fw-bold text-success">Noni qanaqa bo'lsin?</h5>
+          <div class="select-wrapper mb-5 mt-3">
+            <select class="form__select w-25 border-1 border-success fw-light rounded-2" id="form__select">
+            </select>
+          </div>
+          <div class="pizza-size-box ">
+            <p class="form__text-kattalik fw-bold fs-4 text-success">Kattaligi</p>
+          </div>
+          <div class="add-vegetables-wrapper">
+            <p class="form__text-turi fw-bold fs-4 text-success">Ustida nimalar bo'lsin</p>
+            <ul class="add-vegetables-list"></ul>
+          </div>
+
+          <div class="addbox">
+            <p class="addbox__text fs-4 fw-bold text-success">Qo'shimchalar</p>
+            <ul class="addbox__list"></ul>
+          </div>
+        </form>
+        </select> 
+      </div>
+      <div class="order-section js-order-section col-md-8 col-lg-5 border border-1 border-success py-3 rounded ps-5">
+
+        <div class="result-wrapper">
+        <p class="result__textin fw-bold text-success">Noni:</p>
+        <p class="result__textend"></p>
+      </div>
+
+      <div class="result-wrapper">
+        <p class="pizza-size-title fw-bold text-success">Kattalgi:</p>
+        <p class="pizza-size-result"></p>
+      </div>
+
+      <div class="addresult-wrapper">
+        <p class="addresult__texting fw-bold text-success">Ustida:</p>
+        <ul class="ustida-list overflow-auto"></ul>
+      </div>
+
+      <div class="addending">
+        <p class="addending__text fw-bold text-success fs-2">Qo'shimcha:</p>
+        <ul class="addending__texting"></ul>
+      </div>
+      <button type="submit"class="btn btn-success w-50 rounded-0 sendBtn">Buyurtma berish</button></div>
+    </div>
+
+    
+  </div>
+
+  </div>
+  <footer>
+    <div class="container">
+ <div class="footer-top pb-3 pt-1 mt-5">
+ <h2 class="footer-title w-50 mx-auto mt-5 text-center">
+  Ro'yhatdan o'ting va hoziroq buyurtma bering.
+ </h2>
+ <div class="sign justify-content-center d-flex gap-5 mt-4">
+  <div class="nav-logo d-flex align-items-center gap-3">
+    <h4 class="text-center text-white fw-bold fs-3">Milliy.Pitsa.uz </h4>
+            <img src="./img/menu-img-1.png" alt="" class="logo-img d-flex align-items-center">
+  </div>
+ </div>
+ </div>
+ 
+    </div>
+  </footer>
+</body>
+<script src="./js/pulign.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+</html>
